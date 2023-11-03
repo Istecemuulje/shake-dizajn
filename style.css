@@ -172,6 +172,157 @@ body {}
 }
 
 /* ------------------------------------------------------ */
+/* newsletter start */
+
+.newsLetter {
+    background-color: var(--tamnoZelena-boja);
+    height: 594px;
+    position: relative;
+    overflow: hidden;
+}
+
+.newsLetter__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+
+
+}
+
+.backGround_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newsLetter__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 602px;
+
+}
+
+.newsLetter__content h2 {
+    margin: 0px 42px 0px 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -1.44px;
+}
+
+.newsLetter__content p {
+    margin: 42px 42px 0px 42px;
+    opacity: 0.8;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.curved__arrowOne img {
+    /* top: 220px; */
+    width: 199px;
+    height: 152px;
+}
+
+.curved__arrowTwo img {
+    width: 199px;
+    height: 152px;
+}
+
+.curved__arrowOne {
+    position: absolute;
+    height: inherit;
+    transform: rotate(180deg);
+    top: -26%;
+    left: 8%;
+}
+
+.curved__arrowOne::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 54%;
+    top: 20%;
+    left: 78.5%;
+    background-color: var(--zuta-boja);
+}
+
+.curved__arrowTwo {
+    height: inherit;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+    position: absolute;
+    right: 8%;
+    top: 68%;
+}
+
+.curved__arrowTwo::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 10%;
+    bottom: 68%;
+    left: 78%;
+    background-color: var(--zuta-boja);
+    /* ove mi ispada iz pravca kad se menj rezolucija */
+}
+
+.newsLetter__form {
+    margin-top: 64px;
+}
+
+.newsLetter__form form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 18px;
+    padding: 12px 24px;
+}
+
+.email__form {
+    border: none;
+    border-radius: 18px;
+}
+
+.email__form {
+    color: #283430;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.email__form:focus {
+    outline: none;
+}
+
+.form__image {
+    padding: 24px;
+    background-color: var(--svetloZelena-boja);
+    color: var(--tamnoZelena-boja);
+    border-radius: 18px;
+}
+
+/* ------------------------------------------------------ */
 
 /* footer start */
 footer {
