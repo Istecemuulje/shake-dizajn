@@ -179,6 +179,7 @@ body {}
     height: 594px;
     position: relative;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .newsLetter__container {
@@ -321,6 +322,146 @@ body {}
     color: var(--tamnoZelena-boja);
     border-radius: 18px;
 }
+
+/* ------------------------------------------------------ */
+/* hero start */
+
+.hero {
+    background-color: var(--tamnoZelena-boja);
+    position: relative;
+}
+
+.hero__backGround svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.hero__container {
+
+    max-width: 1140px;
+    height: 799px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero__content h1 {
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -2.16px;
+}
+
+.hero__content p {
+    margin-top: 48px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.hero__content button a {
+    color: var(--tamnoZelena-boja);
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.63px;
+}
+
+.heroErrow {
+    padding-left: 14px;
+}
+
+.hero__content button {
+    margin-top: 64px;
+    padding: 24px 36px;
+    background-color: var(--svetloZelena-boja);
+    border-radius: 18px;
+}
+
+.rating {
+    margin-top: 120px;
+}
+
+.reviws {
+    display: flex;
+    align-items: center;
+}
+
+.reviws p {
+    margin-top: 12px;
+}
+
+.reviws P:nth-child(1) {
+    color: #FFF8F4;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.reviws P:nth-child(2) {
+    margin-left: 12px;
+    color: var(--text-text-invert, #E7E7E7);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.hero__img {
+    margin-bottom: -300px;
+    position: relative;
+}
+
+.heroLogo {
+    position: absolute;
+    top: 20%;
+    left: -20%;
+}
+
+.hero__img img {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.svg {
+
+    position: relative;
+}
+
+svg image {
+    position: absolute;
+    top: 60;
+}
+
+/* .hero__img img::before {
+    content: "";
+    width: 30px;
+    height: 50px;
+    background-color: #505153;
+} */
 
 /* ------------------------------------------------------ */
 
